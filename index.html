@@ -491,7 +491,10 @@
     justify-content: center;
     position: relative;
     margin-left: 0;
+    margin-right: 0;
     flex-shrink: 0;
+    max-width: 160px;
+    min-width: 0;
   }
 
   .img-frame::before {
@@ -991,6 +994,7 @@
           border-radius: 20px;
           padding: 1.2rem 1.3rem;
           box-shadow: 0 0 20px rgba(201,168,76,0.06), inset 0 0 24px rgba(201,184,240,0.03);
+          overflow: hidden;
         ">
           <div class="content-columns">
             <div>
